@@ -1,0 +1,192 @@
+html {
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.testimonials-container {
+    width: 375px;
+    height: auto;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ecf2f8;
+}
+
+.daniel {
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px auto 15px auto;
+    width: 300px;
+    height: auto;
+    color: white;
+    background-color: #7541c8;
+}
+
+.daniel-graduate {
+    display: flex;
+    align-items: center;
+}
+
+#daniel-clifford {
+    margin-left: 15px;
+}
+
+#daniel-clifford p {
+    margin: 0;
+}
+
+.jonathan {
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px auto 15px auto;
+    width: 300px;
+    height: auto;
+    color: white;
+    background-color: #48556a;
+}
+
+.jonathan-graduate {
+    display: flex;
+    align-items: center;
+}
+
+#jonathan-walters {
+    margin-left: 15px;
+}
+
+#jonathan-walters p {
+    margin: 0;
+}
+
+.jeanette {
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px auto 15px auto;
+    width: 300px;
+    height: auto;
+    color: #48556a;
+    background-color: white;
+}
+
+.jeanette-graduate {
+    display: flex;
+    align-items: center;
+}
+
+#jeanette-harmon {
+    margin-left: 15px;
+}
+
+#jeanette-harmon p {
+    margin: 0;
+}
+
+.patrick {
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px auto 15px auto;
+    width: 300px;
+    height: auto;
+    color: white;
+    background-color: #19212e;
+}
+
+.patrick-graduate {
+    display: flex;
+    align-items: center;
+}
+
+#patrick-abrams {
+    margin-left: 15px;
+}
+
+#patrick-abrams p {
+    margin: 0;
+}
+
+.kira {
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px auto 15px auto;
+    width: 300px;
+    height: auto;
+    color: #48556a;
+    background-color: white;
+}
+
+.kira-graduate {
+    display: flex;
+    align-items: center;
+}
+
+#kira-whittle {
+    margin-left: 15px;
+}
+
+#kira-whittle p {
+    margin: 0;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 850px) {
+    .testimonials-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* overflow: hidden; */
+        width: auto;
+        height: 80%;
+        margin: auto;
+        padding: auto;
+        /* #ecf2f8; */
+    }
+    .flex-left {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        width: 70%;
+        height: 100%;
+    }
+    .daniel {
+        width: 60%;
+        height: 45%;
+    }
+    .jonathan {
+        width: 30%;
+        height: 45%;
+    }
+    .jeanette {
+        width: 30%;
+        height: 45%;
+    }
+    .patrick {
+        width: 60%;
+        height: 45%;
+    }
+    .flex-right {
+        padding: 0;
+        margin: 0;
+        width: 30%;
+        display: flex;
+    }
+    .kira {
+        padding: 30px;
+        margin: auto;
+        height: 95%;
+    }
+}
